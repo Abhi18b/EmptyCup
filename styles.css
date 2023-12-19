@@ -1,0 +1,191 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid #716966;
+}
+
+.logo img {
+    max-width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+}
+
+h1 {
+    color: #716966;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px;
+    margin: 2px;
+
+}
+
+.company-info {
+    width: 124px;
+    height: 35px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu-icon img {
+    max-width: 27px;
+    height: 27px;
+    /*flex-shrink: 0;*/
+}
+
+/* Style for the navigation section */
+.navigation {
+    display: flex;
+    flex-direction: row; /* Display items in a row by default */
+    justify-content: flex-start; /* Align items to the start (left) of the row */
+    background-color: #ffffff; /* Add a background color if needed */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if the width is too small */
+    border-bottom: 1px solid #716966;
+}
+
+/* Style for each navigation item */
+.nav-item {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column; /* Display content in a column */
+    align-items: center; /* Center the content horizontally */
+    flex-grow: 1; /* Allow items to grow and occupy the available space */
+    min-width: 15px; /* Set a minimum width to prevent items from shrinking too much */
+}
+.nav-item img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin-bottom: 5px; /* Add spacing between the image and text */
+    flex-shrink: 0; /* Ensure images don't shrink */
+}
+.nav-item span {
+    font-size: 10px; /* Adjust the font size as needed */
+}
+
+.nav-item-but {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    border: 0;
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+/* Style for the images inside each navigation item */
+.nav-item-but img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin-bottom: 5px; /* Add spacing between the image and text */
+    flex-shrink: 0; /* Ensure images don't shrink */
+}
+
+/* Style for the text below the icons */
+.nav-item-but span {
+    font-size: 10px; /* Adjust the font size as needed */
+}
+
+.designers {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info-designers {
+    margin: 10px;
+    align-items: center;
+}
+
+.designer-card {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.actions {
+    padding: 10px;
+    border-left: 2px solid #d1d0d0;
+    margin-bottom: 10px;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+.rating img {
+    margin-top: 2%;
+    height: 15px; 
+    flex-shrink: 0;
+}
+
+.action-img {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    border: 0px;
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+/* Style for the images inside each navigation item */
+.action-img img {
+    width: 20px; 
+    height: 20px; 
+
+}
+
+/* Style for the text below the icons */
+.action-txt span {
+    font-size: 2px; /* Adjust the font size as needed */
+}
+
+.exp-info {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+.projects,.years,.prices {
+    color: black;
+    padding: 3%;
+    margin: 3%;
+}
+
+h3 {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0px;
+    margin: 2px;
+
+}
